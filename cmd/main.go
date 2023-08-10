@@ -7,6 +7,11 @@ import (
 )
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Println("error: No file path provided")
+		return
+	}
+
 	path := os.Args[1]
 	a, err := handler.HandleInput(path)
 
