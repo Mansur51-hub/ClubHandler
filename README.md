@@ -1,7 +1,7 @@
 # ClubHandler
 
 ## Задание
-[file.pdf](docs/Тестовое задание GO.pdf)
+[file.pdf]("docs/Тестовое задание GO.pdf")
 
 ## Запуск решения в docker
 
