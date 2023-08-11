@@ -16,9 +16,7 @@ COPY --from=builder /build/cmd/test /build/test
 
 ARG file_name
 
-WORKDIR /build
-
-COPY $file_name /build/$file_name
+COPY $file_name .
 
 ENV file_name=$file_name
 
