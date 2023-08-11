@@ -9,9 +9,9 @@ https://github.com/Mansur51-hub/ClubHandler/blob/84a2a4f9d06156d52ee9fe26a2008a4
 <p>Далее выполнить команды:</p>
 
 ```command
-docker build -t {image_name} --build-arg file_name={file_name} .
+docker build -t {your_image_name} --build-arg file_name={your_file_name} .
 ```
 
 ```command
-docker run {image_name}
+docker run {your_image_name}
 ```
