@@ -1,3 +1,3 @@
-module github.com/Mansur51-hub/club-handler
+module github.com/Mansur51-hub/ClubHandler
 
 go 1.19
